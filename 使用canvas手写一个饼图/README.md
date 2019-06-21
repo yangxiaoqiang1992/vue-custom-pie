@@ -1,7 +1,7 @@
 ## 使用canvas绘制一个饼图
 <br/>canvas绘制效果如下：</br>
-<br/>![示例1](http://git.thunisoft.com/DaLianHuaYu/FEManage/fesnippet/raw/master/%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%BB%84%E4%BB%B6%E5%BA%93/%E4%BD%BF%E7%94%A8canvas%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AA%E9%A5%BC%E5%9B%BE/demo1.png)</br>
-<br/>![实例2](http://git.thunisoft.com/DaLianHuaYu/FEManage/fesnippet/raw/master/%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%BB%84%E4%BB%B6%E5%BA%93/%E4%BD%BF%E7%94%A8canvas%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AA%E9%A5%BC%E5%9B%BE/demo2.png)</br>
+<br/>![示例1](https://github.com/yangxiaoqiang1992/vue-custom-pie/blob/master/%E4%BD%BF%E7%94%A8canvas%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AA%E9%A5%BC%E5%9B%BE/demo1.png)</br>
+<br/>![实例2](https://github.com/yangxiaoqiang1992/vue-custom-pie/blob/master/%E4%BD%BF%E7%94%A8canvas%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AA%E9%A5%BC%E5%9B%BE/demo2.png)</br>
 
 - init方法用于初始化canvas,设置颜色，计算各项数据所占弧度，`  const splitRad = this.params.barWidth * 8 / (Math.PI * 2 * this.params.radius)` 用于在绘制时各项之间保留一定间距，由于canvas绘制笔刷butt和round之间的区别，设置为round时按照正常的弧度计算会存在重叠，所以添加间距
 ```
